@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+.page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body{
+    background-image: url('https://images.pling.com/img/00/00/61/26/90/1549681/018d0afc3a1ad27459709033cf3da05758dba9776d83dad8af92804afd324b0a71ac.jpg');
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cover {
+    width: 20em;
+    height: 30em;
+    position: center;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgb(227, 227, 227);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    opacity: 900%;
+    color: aliceblue;
+    margin-right:
+}
+
+.alt-login {
+    width: 80%;
+    height: 3em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.alt-login div {
+    width: 45%;
+    height: 90%;
+    border-radius: 0.25em;
+    background-position: center;
+    background-size: contain;
+    background-image: no-repeat;
+    cursor: pointer;
+}
+
+.google {
+    background-image: url('https://cdn-icons-png.flaticon.com/128/281/281764.png');
+    opacity: 70%;
+}
+
+.login-btn {
+    width: 40%;
+    height: 3em;
+    background-color: rgba(145, 220, 255, 0.953);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 0.25em;
+    cursor: pointer;
+
+}
+
+.login-btn:hover {
+    transform: scale(1.25);
+}
+
+.text {
+    position: relative;
+    bottom: -2em;
+}
+
+.hide {
+    position: absolute;
+    transform: scale(0);
+}
+
+.login-popup {
+    position: absolute;
+    height: 10em;
+    width: 40em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.25em;
+    background-color: rgb(221, 166, 166);
+    color: beige;
+    bottom: 0;
+    transform: scale(1);
+    transition: 1.5s;
+}
+.login-img{
+    width: 50%;
+}
